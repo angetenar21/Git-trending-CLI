@@ -1,0 +1,31 @@
+{
+  "name": "git-trending-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "trending-repos": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angetenar21/Git-trending-CLI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/angetenar21/Git-trending-CLI/issues"
+  },
+  "homepage": "https://github.com/angetenar21/Git-trending-CLI#readme",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "chalk": "^5.6.2",
+    "dayjs": "^1.11.19",
+    "yargs": "^18.0.0"
+  }
+}
